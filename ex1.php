@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="ex1.css">
 </head>
 <body>
+    <p>
     <?php
-    $var = 'Clément';
-    echo "<p>$var</p>";
+    $name = 'Clément';
+    echo 'Bonjour ' . $name;
     ?>
+    </p>
 </body>
 </html>
